@@ -1,0 +1,30 @@
+{
+  "name": "wp_project-calendar",
+  "homepage": "https://github.com/EricLin0123/calendar.git",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "fuyingxx0 <95673941+fuyingxx0@users.noreply.github.com>",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "cd frontend && yarn start",
+    "server": "cd backend && yarn server",
+    "data": "cd backend && yarn data",
+    "build": "react-scripts build"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@mui/x-data-grid": "^5.17.17"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "description": "our project of web programming",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricLin0123/calendar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EricLin0123/calendar/issues"
+  }
+}
